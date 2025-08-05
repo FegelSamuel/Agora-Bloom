@@ -11,6 +11,27 @@ flowchart TD;
   S[Data Sets] --> N
 ```
 
+## Tech Stack Dependency Chart
+```mermaid
+flowchart LR;
+  R(React)
+  P(Prisma ORM)
+  S(SQLite3 or Postgres)
+  N(Next.js Server)
+  F(Forum)
+  C(Plant Recommendation System)
+  G(AI-Powered Helpdesk)
+
+  N --> F
+  N --> C
+  R --> G
+  R --> F
+  R --> C
+  N --> R
+  P --> N
+  S --> P
+```
+
 ## EER Diagram
 v1.0.0
 ```mermaid
