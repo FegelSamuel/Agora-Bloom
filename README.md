@@ -37,6 +37,7 @@ erDiagram
     Forum {
         string id PK
         string ownerID
+        string title
     }
 
     ForumMod {
