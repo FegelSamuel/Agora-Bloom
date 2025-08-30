@@ -14,10 +14,10 @@ flowchart TD;
 ## Tech Stack Dependency Chart
 ```mermaid
 flowchart LR;
-  R(React)
+  R(Vue)
   P(Prisma ORM)
   S(SQLite3 or Postgres)
-  N(Next.js Server)
+  N(Nuxt.js Server)
   F(Forum)
   C(Plant Recommendation System)
   G(AI-Powered Helpdesk)
